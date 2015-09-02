@@ -1,0 +1,16 @@
+{
+  "globals": {
+    "angular": true
+  },
+  // the following rules should be kept in alphabetical order
+  "rules": {
+    // no function expressions
+    "func-style": [2, "declaration"],
+    // no more than 100 characters per line
+    "max-len": [2, 100, 2],
+    // no more than 1 empty line
+    "no-multiple-empty-lines": [2],
+    // only single quotes
+    "quotes": [2, "single"]
+  }
+}
